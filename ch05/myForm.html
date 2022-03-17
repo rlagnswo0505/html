@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My form</h1>
+    <form action="/join">
+        <div>
+            <input type="text" name="iuser" id="" hidden="true">
+        </div>
+        <div>
+            <!-- 실행했을때 자동으로 커서가 가도록 하는 속성 -->
+            <input type="text" name="uid" placeholder="user id" autofocus required>
+        </div>
+        <div>
+            <input type="password" name="npw" placeholder="password" required>
+        </div>
+        <div>
+            <label>
+                프사 : <input type="file" name="pic" id="" accept="image/*" multiple>
+            </label>
+        </div>
+        <div>
+            <label>
+                남긴 말 <textarea name="" id="" cols="30" rows="5"></textarea>
+            </label>
+        </div>
+        <div>
+            <label>
+                지역 :
+                <select name="location">
+                    <option value="1">서울</option>
+                    <option value="2">대전</option>
+                    <option value="3" selected>대구</option>
+                    <option value="4">부산</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            취미 :
+            <label>
+                <input type="checkbox" name="hobbit" id="" value="1">농구
+            </label>
+            <label>
+                <input type="checkbox" name="hobbit" id="" value="2">축구
+            </label>
+            <label>
+                <input type="checkbox" name="hobbit" id="" value="3" checked>배구
+            </label>
+            <label>
+                <input type="checkbox" name="hobbit" id="" value="4">탁구
+            </label>
+        </div>
+        <div>
+            성별 :
+            <label>
+                여성 <input type="radio" name="gender" id="" value="f">
+            </label>
+            <label>
+                남성 <input type="radio" name="gender" id="" value="m" checked>
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="join" />
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+
+</html>

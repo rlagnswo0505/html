@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+div {
+    letter-spacing: 1px;
+    line-height: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+}
