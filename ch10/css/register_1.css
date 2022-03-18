@@ -1,0 +1,9 @@
+#signup label {
+    float: left;
+    font-size: 13px;
+    width: 110px;
+}
+/* 첫번째를 제외한 나머지에게 적용 */
+ul > li:not(:first-child) {
+    margin-top: 5px;
+}
