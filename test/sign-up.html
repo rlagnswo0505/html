@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 900px;
+        }
+
+        input[type=submit] {
+            border: none;
+            border-radius: 0;
+            padding: 0;
+            overflow: visible;
+            cursor: pointer
+        }
+
+        h1 {
+            color: #3fc754;
+            text-align: center;
+        }
+
+
+        label {
+            display: block;
+        }
+
+        input {
+            display: block;
+        }
+
+        .birth {
+            display: inline;
+        }
+
+        .submit {
+            width: 150px;
+            height: 40px;
+            background-color: #3fc754;
+            margin-top: 10px
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <h1>naver</h1>
+                <label>아이디 <input type="text" name="userid" placeholder="@naver.com" id=""></label>
+                <label>비밀번호 <input type="password" name="userpw" id=""></label>
+                <label>비밀번호재확인 <input type="password" name="" id=""></label>
+                <label>이름 <input type="text" name="username" id=""></label>
+                <div class="birth">
+                    <label>생년월일 <input type="text" name="year" id="">
+                        <select name="month" id="">
+                            <option value="">1월</option>
+                            <option value="">2월</option>
+                            <option value="">3월</option>
+                            <option value="">4월</option>
+                            <option value="">5월</option>
+                            <option value="">6월</option>
+                            <option value="">7월</option>
+                            <option value="">8월</option>
+                            <option value="">9월</option>
+                            <option value="">10월</option>
+                            <option value="">11월</option>
+                            <option value="">12월</option>
+                        </select>
+                        <input type="text" name="day" id="">
+                    </label>
+                </div>
+                <label> 성별
+                    <select name="" id="">
+                        <option value="">남자</option>
+                        <option value="">여자</option>
+                        <option value="">선택안함</option>
+                    </select>
+                </label>
+                <label for="">
+                    본인 확인 이메일(선택)
+                    <input type="email" name="" id="" placeholder="선택입력" id="">
+                </label>
+                <input class="submit" type="submit" value="가입하기">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
