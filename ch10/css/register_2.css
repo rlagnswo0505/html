@@ -3,6 +3,10 @@
     width: 120px;
     font-size: 13px;
 }
+#signup input:focus {
+    outline: none;
+}
+
 ul > li:not(:first-child) {
     margin-top: 10px;
 }
@@ -11,4 +15,14 @@ ul > li:not(:first-child) {
 }
 #signup input[readonly] {
     border: none;
+}
+#signup input[type="text"],
+#signup input[type="password"],
+#signup input[type="tel"],
+#signup input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+    width: 200px;
+    padding: 5px;
 }
