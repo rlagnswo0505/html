@@ -7,17 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* input[type='text'],
+        input[type='tel'] {
+            padding: 5px;
+        } */
+        input:not([type='radio']),
+        input:not([type='checkbox']) {
+            padding: 5px;
+            color: red;
+        }
+
         li>input[type='radio']:checked+label {
             background-color: aqua;
+        }
+
+        li>input[type='checkbox']:checked+label {
+            background-color: purple;
         }
     </style>
 </head>
 
 <body>
+    <form action="">
+        <fieldset>
+            <legend>개인 정보</legend>
+            <div>
+                <label for="name">이름</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="tel">연락처</label>
+                <input type="tel" name="" id="tel">
+            </div>
+        </fieldset>
+    </form>
     <ul>
         <li>
             <input type="radio" name="room" id="basic">
-            <label for="basic">기본형(최대 2인)</label>
+            <label for="basic">기본habbit형(최대 2인)</label>
         </li>
         <li>
             <input type="radio" name="room" id="family">
