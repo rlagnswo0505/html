@@ -2,6 +2,9 @@
 <html lang="ko">
 
 <head>
+  <!-- 트랜지션 진행 시간은 0.5 지정
+  대상은 all
+  트렌지션 함수는 ease-in -->
   <meta charset="UTF-8">
   <title>연습문제 2</title>
   <style>
@@ -22,6 +25,7 @@
     .top-menu li {
       float: left;
       border-right: 1px solid #929292;
+      transition: all ease-in 0.5s;
     }
 
     .top-menu li a:link {
@@ -32,6 +36,7 @@
       width: 100px;
       height: 35px;
       line-height: 35px;
+
     }
 
     .top-menu li a:visited {

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+
+        #box1 {
+            background-color: #4cff00;
+            border: 1px solid transparent;
+            transition: all ease 1s;
+        }
+
+        #box2 {
+            background-color: #8f06b0;
+            border: 1px solid transparent;
+        }
+
+        #box1:hover {
+            animation: shape;
+            animation-duration: 1s;
+        }
+
+        #box2:hover {
+            animation: rotate ease alternate-reverse;
+            animation-duration: 1s;
+        }
+
+        @keyframes shape {
+            from {
+                border: 1px solid transparent
+            }
+
+            to {
+                border: 1px solid #000;
+                border-radius: 50%;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(45deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+</body>
+
+</html>
