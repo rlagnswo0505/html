@@ -28,6 +28,11 @@
         <li><a href="http://www.daum.net">다음</a></li>
         <li><a href="http://www.google.com">구글</a></li>
     </ul>
+    <!-- 모든 a 태그에 target속성과 blank속성값 주는 스크립트 -->
+    <script>
+        const arrt = document.querySelectorAll('a');
+        arrt.forEach(index => index.setAttribute('target', '_blank'))
+    </script>
 </body>
 
 </html>;

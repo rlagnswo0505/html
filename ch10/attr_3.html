@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* 실시간으로 바꾼 value값에는 적용 x */
+        input[type="text"][value~="안녕"]
+
         /* ~= : 포함되어 있으면 같이 선택 (and) */
         [class~=button] {
             color: red;
@@ -20,6 +23,7 @@
         <li><a href="#" class="flat">메뉴 2</a></li>
         <li><a href="#" class="button">메뉴 3</a></li>
         <li><a href="#" class="flat button">메뉴 4</a></li>
+        <input type="text" value="안녕" name="" id="">
     </ul>
     <div class="button">메뉴5</div>
     <div class="flat button">메뉴6</div>
