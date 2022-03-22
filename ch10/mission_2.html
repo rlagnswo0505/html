@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .contents {
+            height: 500px;
+        }
+
+        #sec1:target {
+            background: url(images/1.jpg) no-repeat;
+            background-size: contain;
+        }
+
+        #sec2:target {
+            background: url(images/2.jpg) no-repeat;
+            background-size: contain;
+        }
+
+        #sec3:target {
+            background: url(images/3.jpg) no-repeat;
+            background-size: contain;
+        }
+
+        div[id^='sec']:target>h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="#sec1">섹션1</a></li>
+        <li><a href="#sec2">섹션2</a></li>
+        <li><a href="#sec3">섹션3</a></li>
+    </ul>
+    <div id="sec1" class="contents">
+        <h1>섹션1</h1>
+        <!-- <img src="images/1.jpg" alt=""> -->
+    </div>
+    <div id="sec2" class="contents">
+        <h1>섹션2</h1>
+        <!-- <img src="images/2.jpg" alt=""> -->
+    </div>
+    <div id="sec3" class="contents">
+        <h1>섹션3</h1>
+    </div>
+</body>
+
+</html>
