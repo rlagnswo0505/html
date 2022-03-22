@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            margin: 50px auto;
+            width: 100px;
+            height: 100px;
+            background-color: #fb5;
+            border: 1px solid #222;
+            transition: all ease-in 2s
+        }
+
+        .box:hover {
+            width: 200px;
+            height: 200px;
+            transform: rotate(270deg);
+            background-color: #f50;
+        }
+
+        /* 
+        가로, 세로 200px 
+        배경색 : #f50 270도 rotate 대상 all,
+        시간 2s,
+        함수 ease-in
+        */
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+#container {
+    width: 1000px;
+    margin: 20px auto;
+}
+h1 {
+    text-align: center;
+}
+.prod-list {
+    list-style: none;
+    padding: 0;
+}
+.prod-list li {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    width: 300px;
+}
+.prod-list img {
+    margin: 0;
+    padding: 0;
+    float: left;
+    z-index: -1;
+}
+
+.caption {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgba(5, 5, 5, 0.863);
+    color: #fff;
+    opacity: 0;
+    transition: all ease 1s;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+}
+.caption h2 {
+    padding-top: 20px;
+}
+
+li:hover .caption {
+    opacity: 1;
+    transform: translateY(-200px);
+}
