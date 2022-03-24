@@ -82,3 +82,16 @@ ul {
     background-color: black;
     color: #fff;
 }
+.main .main__body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.main .main__body .listing-card ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.main .main__body .listing-card__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
