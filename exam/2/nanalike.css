@@ -19,7 +19,7 @@ body {
     grid-template-areas:
         "header top-bar"
         "header main";
-    grid-template-columns: 250px auto;
+    grid-template-columns: 230px auto;
     grid-template-rows: 45px auto;
 }
 .header {
@@ -85,7 +85,7 @@ body {
     align-items: center;
     background-color: black;
     color: #fff;
-    background: url("http://unsplash.it/1200/600?image=495") center;
+    background: url("http://unsplash.it/1200/600?image=495") no-repeat center;
 }
 
 .main .main__body .listing-card ul {
