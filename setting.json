@@ -1,0 +1,53 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "git.autofetch": true,
+    "powermode.enabled": true,
+    "powermode.presets": "particles",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.colorTheme": "Eva Dark Bold",
+    "editor.renderControlCharacters": false,
+    "materialTheme.accent": "Yellow",
+    "editor.tokenColorCustomizations": {
+        "comments": "#ff99b8"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.tabWidth": 4,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.fontSize": 15,
+    "oneDarkPro.italic": false,
+    "oneDarkPro.vivid": true,
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "insert",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "tabnine.experimentalAutoImports": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "powermode.shake.enabled": false,
+    "powermode.combo.counterSize": 1,
+    "editor.mouseWheelZoom": true,
+    "git.confirmSync": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#00ffd5",
+        "terminalCursor.foreground": "#00ffd5"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "php.validate.executablePath": "C:\\php8\\php.exe"
+}
